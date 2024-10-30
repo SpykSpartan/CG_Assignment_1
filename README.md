@@ -19,10 +19,10 @@ Illumination 3, Simple Specular:
 Specural lighting adds a shine to the object but only depending on the angle you see it in, like a pearlescent paint job. This is because a specular shader relies on how shiny the surface is and reflects the colour in a specific direction.  This relection is calculated between 3 main points: the light direction, the camera angle, and the normals of the surface. The closer these angles align together, the more intense the shine will be. 
 
 Colour Correction:
-LUT color correction is a very interesting consept. 
+LUT color correction is a very interesting consept. This is a post processing method that allows for quick changes between colors, tones, contrast, and brightness. Using color theory, we can increase saturation on some colors to help nullify some others that are don't want. We could also use this to potenial make some colors more vibrant. This process can even be used for some color blind filters that allow for more vibant and easy to see colors for those who normally can't see them.
 
 Shader 1, Toon Shader: 
-A toon shaded uses light ramps to make a 3D object look more 2D. A toon shader works by changing the constant light waves from a sin function to a more blockish sin function. Lookling like pyramids. This mades for shaper shadow lines, instead of a gradual fade from light to dark. 
+A toon shaded uses light ramps to make a 3D object look more 2D. A toon shader works by changing the constant light waves from a sin function to a more blockish sin function. Lookling like pyramids. This mades for shaper shadow lines, instead of a gradual fade from light to dark. To do this we use a texture to help the program find its different bands of light intesity. It does this by calculating the angle of the light and the normal of the surface to determine the intesity. The closer the normal is the the direction of light, the brighter it will be. the further the normal, the darker it will be.
 
 Shader 2, Hologram Shader:
-The hologram shader is practically a rim shader but there is more transparency, with more pronounced edges. You can make it completly transparent, only showing the outlines while still hiding the edges on the opposite side of the object compared to the camera. This allows for a very sci-fi feel to a space game.
+The hologram shader is practically a rim shader but they are more transparency, with more pronounced edges. You can make it completly transparent, only showing the outlines while still hiding the edges on the opposite side of the object compared to the camera. This allows for a very sci-fi feel to a space game.
