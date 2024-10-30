@@ -6,6 +6,7 @@ There is very basic player movement using WASD and uses your mouse to look aroun
 The desplay objects have a very basic rotation script on them that changes the wai the light hits it.
 
 Link to Elevator Pitch: 
+
 Link to Presentation Report: 
 
 Illumination 1, Simple Diffuse Lighting:
