@@ -4,3 +4,15 @@ This assignment is to deminstrate learning of course materials by making shaders
 
 Link to Elevator Pitch: 
 Link to Presentation Report: 
+
+Illumination 1, Simple Diffuse Lighting:
+
+Illumination 2, Diffuse Lighting with Ambient:
+
+Illumination 3, Simple Specular:
+
+Colour Correction:
+
+Shader 1, Toon Shader:
+
+Shader 2, Hologram Shader:
