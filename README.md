@@ -4,7 +4,7 @@ This assignment is to deminstrate learning of course materials by making shaders
 There is very basic player movement using WASD and uses your mouse to look around.
 The desplay objects have a very basic rotation script on them that changes the wai the light hits it.
 
-LINK TO ELEVATOR PITCH: 
+LINK TO ELEVATOR PITCH: https://youtu.be/614jTTJO0lo
 
 LINK TO REPORT PRESENTATION: 
 
