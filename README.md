@@ -1,21 +1,24 @@
 # CG_Assignment_1
-
 This assignment is to deminstrate learning of course materials by making shaders from the lectures, modifying them, and describing how they work.
 
 There is very basic player movement using WASD and uses your mouse to look around.
 The desplay objects have a very basic rotation script on them that changes the wai the light hits it.
 
-Link to Elevator Pitch: 
+LINK TO ELEVATOR PITCH: 
 
-Link to Presentation Report: 
+LINK TO REPORT PRESENTATION: 
+
+LINK TO GAME PLAY FOOTAGE: https://youtu.be/AhkdyGqB_7c 
+
+Ther order the video presented it was Diffuse, Ambient, Specular, All of those together, Toon shader, Hologram, and finally the LUT Color Correction.
 
 Illumination 1, Simple Diffuse Lighting:
 Adds more soft finish to the object. this is becasue this shader mades the light from the light source even across the surface of the object. This is done but the surface changing the calculations on how the light is absorbed and scattered. Mainly, the surface uses the cosine angle between the light and the surface normals to make the seem brighter when the light is perpendicular to it. From this the side of the object furthest way from the source of light will not be completly black , but just a bit darker. 
 
-Illumination 2, Diffuse Lighting with Ambient:
+Illumination 2, Ambient:
 Adds a more matte finish to the object. Main of the rules from the regular Diffuse still apply to this shader but one major difference is the Ambient part of the shader makes the shadows softer, while still allowing for the surface to be evenly lit depending of the direction of light.
 
-Illumination 3, Simple Specular:
+Illumination 3, Specular:
 Specural lighting adds a shine to the object but only depending on the angle you see it in, like a pearlescent paint job. This is because a specular shader relies on how shiny the surface is and reflects the colour in a specific direction.  This relection is calculated between 3 main points: the light direction, the camera angle, and the normals of the surface. The closer these angles align together, the more intense the shine will be. 
 
 Colour Correction:
